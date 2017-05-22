@@ -1,7 +1,7 @@
 ### Gemfile
 
 ```ruby
-gem 'activeadmin-dragonfly', github: 'stefanoverna/activeadmin-dragonfly'
+gem 'activeadmin-dragonfly', git: 'https://github.com/JNajera/activeadmin-dragonfly'
 ```
 
 ### Model

@@ -8,7 +8,7 @@ module Formtastic
         input_wrapping do
           fragments_wrapping do
             fragments_label <<
-            template.content_tag(:ol) do
+            template.content_tag(:div) do
               components.map do |component|
                 template.content_tag(:li, class: "input component-#{component}") do
                   fragment_html(component)
