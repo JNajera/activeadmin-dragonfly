@@ -1,0 +1,7 @@
+es:
+  formtastic:
+    dragonfly:
+      no_image: "No hay imagen"
+      upload: "Subir archivo"
+      url: "URL del archivo"
+      remove: "¿Deseas eliminarl el archivo?"
