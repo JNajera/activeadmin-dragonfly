@@ -1,0 +1,41 @@
+.input.dragonfly {
+  .fragments {
+    & > legend {
+      display: none;
+    }
+
+    ol {
+      li {
+        &::after {
+          content: "";
+          display: block;
+          clear: both;
+        }
+
+        label {
+          text-align: right;
+        }
+
+        &.component-remove {
+          label {
+            padding-left:110px width:auto float:none text-align: left;
+          }
+        }
+
+        &.component-preview {
+          & > a {
+            float:left display:block padding:5px background:white border:1px solid #ccc border-radius:2px img {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .component-preview {
+    .no-image {
+      line-height: 32px;
+    }
+  }
+}
